@@ -24,7 +24,7 @@ To run PEATH, use the following command:
 ```
 
 <input_file> is an input matrix for sequence reads and
-<outputfile> contains phased haplotype.
+<output_file> contains phased haplotype.
 
 ex) ./PEATH chr1.matrix.SORTED chr1.phased
 (Assuming that working directory contains PEATH(executable file) and chr1.matrix.SORTED(input file))
