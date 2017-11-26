@@ -1,4 +1,4 @@
-# PEATH: Probabilistic Evolutionary Algorithm with Toggling for Haplotyping
+9# PEATH: Probabilistic Evolutionary Algorithm with Toggling for Haplotyping
 
 PEATH is a novel SIH algorithm based on the estimation of distribution algorithm (EDA).
 It implementes the algorithm proposed in:
@@ -25,7 +25,7 @@ To run PEATH, use the following command:
 
 <input_file> is an input matrix for sequence reads and
 <output_file> contains phased haplotype.
-<param> is an optional parameter for time/accuracy tradeoff which is a positive integer (default: 50).
+(<param>) is an optional parameter for time/accuracy tradeoff which is a positive integer (default: 50).
 
 ```
 ex) ./PEATH chr1.matrix.SORTED chr1.phased
