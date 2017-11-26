@@ -42,10 +42,11 @@ g++ eval.cpp -o eval -O2
 ```
 
 <matrix_file> is a matrix for sequence reads,
-<answer_file> is a answer file,
+<answer_file> is an answer file,
 <haplo_file> is a haplotype file,
 <output_file> is an output file containing evaluation results.
-(mask_file) is a mask haplo file whose format is the same as <haplo_file>an optional parameter for time/accuracy tradeoff which is a positive integer (default: 50).
+
+(mask_file) is a mask haplo file which is optional.
 
 ```
 ex) ./eval chr1.matrix.SORTED chr1.valid.master chr1.haplo chr1.eval
