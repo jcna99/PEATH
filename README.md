@@ -29,7 +29,26 @@ To run PEATH, use the following command:
 (param) is an optional parameter for time/accuracy tradeoff which is a positive integer (default: 50).
 
 ```
-ex) ./PEATH chr1.matrix.SORTED chr1.phased
+ex) ./PEATH chr1.matrix.SORTED chr1.haplo
+```
+
+## Evaluation
+
+To evaluate a haplotype, use the evaluation code.
+
+```
+g++ eval.cpp -o eval -O2
+./eval <matrix_file> <answer_file> <haplo_file> <output_file>
+```
+
+<matrix_file> is a matrix for sequence reads,
+<answer_file> is a answer file,
+<haplo_file> is a haplotype file,
+<output_file> is an output file containing evaluation results.
+(mask_file) is a mask haplo file whose format is the same as <haplo_file>an optional parameter for time/accuracy tradeoff which is a positive integer (default: 50).
+
+```
+ex) ./eval chr1.matrix.SORTED chr1.valid.master chr1.haplo chr1.eval
 ```
 
 ## Data sets
