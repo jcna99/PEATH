@@ -1093,7 +1093,7 @@ void procedure(char matrixFileName[], char outputFileName[], int phasing_iter) {
 // 1st argument : input file name
 // 2nd argument : output filne name
 
-int peath_main(int argc, char ** argv) {
+int main(int argc, char ** argv) {
 
 	if (argc != 3 && argc != 4) {
 		cout << "usage: " << argv[0] << " <input_file> <output_file> <param>" << endl;
