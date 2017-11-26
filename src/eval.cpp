@@ -616,11 +616,12 @@ void deallocate_fragment(FragType *fragment, char *fragData, BlockType2 block[])
 // 2nd argument : answer file
 // 3rd argument : haplotype file
 // 4th argument : output file (evaluation results)
+// 5th argument : mask_file (optional)
 
-int eval_main(int argc, char ** argv) {
+int main(int argc, char ** argv) {
 
 	if (argc < 5) {
-		cout << "usage: " << argv[0] << " <matrix_file> <answer_file> <haplo_file> <output_file> <masked_file>" << endl;
+		cout << "usage: " << argv[0] << " <matrix_file> <answer_file> <haplo_file> <output_file> <mask_file>" << endl;
 		exit(1);
 	}
 
