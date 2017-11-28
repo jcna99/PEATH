@@ -38,7 +38,7 @@ To evaluate a haplotype, use the evaluation code.
 
 ```
 g++ eval.cpp -o eval -O2
-./eval <matrix_file> <answer_file> <haplo_file> <output_file>
+./eval <matrix_file> <answer_file> <haplo_file> <output_file> (mask_file)
 ```
 
 <matrix_file> is a matrix for sequence reads,
